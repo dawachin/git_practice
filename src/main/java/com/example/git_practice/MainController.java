@@ -3,9 +3,8 @@ package com.example.git_practice;
 public class MainController {
 
 /**
- *
- * コメント削除部分
- *
+ * 
+ * コメントを削除して追記
  */
 
 
