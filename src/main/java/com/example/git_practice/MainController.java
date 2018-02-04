@@ -25,6 +25,12 @@ public int logSample() {
     logger.info("IPアドレス出力");
     return 1;
 }
+@RequestMapping(value = "log_error", method = RequestMethod.GET)
+public int logError() {
+    logger.error("Errorです");
+    return 2;
+}
+
 
 
 }
